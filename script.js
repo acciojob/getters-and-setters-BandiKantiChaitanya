@@ -20,7 +20,7 @@ class Student extends Person {
         super(name, age);  // Call parent class constructor
     }
 	study(){
-		return this._name+' '+'is studying'
+		console.log(this._name+' '+'is studying')
 	}
 }  
 
@@ -29,7 +29,7 @@ class Teacher extends Person {
         super(name, age);  // Call parent class constructor
     }
 	teach(){
-		return this._name+' '+'is teaching'
+		console.log(this._name+' '+'is teaching')
 	}
 }
 // Do not change the code below this line
